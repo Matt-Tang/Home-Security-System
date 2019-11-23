@@ -1,0 +1,394 @@
+
+**** Build of configuration Release for project ECE_298 ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/bin/cl430" -vmspx -O2 --use_hw_mpy=none --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/Matthew Tang/Documents/Home_Security/ECE_298" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR4133__ --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 350: warning #129-D: loop is not reachable
+"../main.c", line 132: remark #2553-D: (ULP 14.1) Array index (involving "noiseLevelCounter") of type "int". Recommend using "unsigned int"
+"../main.c", line 138: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 140: remark #2553-D: (ULP 14.1) Array index (involving "k") of type "int". Recommend using "unsigned int"
+"../main.c", line 142: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 144: remark #2553-D: (ULP 14.1) Array index (involving "k") of type "int". Recommend using "unsigned int"
+"../main.c", line 146: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 197: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 227: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 377: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 132: remark #2553-D: (ULP 14.1) Array index (involving "noiseLevelCounter") of type "int". Recommend using "unsigned int"
+"../main.c", line 138: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 140: remark #2553-D: (ULP 14.1) Array index (involving "k") of type "int". Recommend using "unsigned int"
+"../main.c", line 142: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 144: remark #2553-D: (ULP 14.1) Array index (involving "k") of type "int". Recommend using "unsigned int"
+"../main.c", line 197: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 227: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 138: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 140: remark #2553-D: (ULP 14.1) Array index (involving "k") of type "int". Recommend using "unsigned int"
+"../main.c", line 142: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 144: remark #2553-D: (ULP 14.1) Array index (involving "k") of type "int". Recommend using "unsigned int"
+"../main.c", line 407: remark #1538-D: (ULP 10.1) ISR RTC_ISR calls function showChar. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 407: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 408: remark #1538-D: (ULP 10.1) ISR RTC_ISR calls function showChar. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 408: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 409: remark #1538-D: (ULP 10.1) ISR RTC_ISR calls function showChar. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 409: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 410: remark #1538-D: (ULP 10.1) ISR RTC_ISR calls function showChar. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 410: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 411: remark #1538-D: (ULP 10.1) ISR RTC_ISR calls function showChar. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 411: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 412: remark #1538-D: (ULP 10.1) ISR RTC_ISR calls function showChar. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 412: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 419: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 423: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 427: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 435: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 439: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 443: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 446: remark #1538-D: (ULP 10.1) ISR RTC_ISR calls function RTC_clearInterrupt. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 454: remark #1538-D: (ULP 10.1) ISR Port_1 calls function clearLCD. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 455: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 468: remark #1538-D: (ULP 10.1) ISR Port_2 calls function Timer_A_stop. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 570: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 571: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 572: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 573: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 574: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 575: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 576: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 577: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 605: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 606: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 607: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 608: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 609: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 674: remark #1538-D: (ULP 10.1) ISR ADC_ISR calls function ADC_getInterruptStatus. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 676: remark #1538-D: (ULP 10.1) ISR ADC_ISR calls function ADC_clearInterrupt. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 681: remark #1538-D: (ULP 10.1) ISR ADC_ISR calls function ADC_getResults. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 738: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 743: warning #225-D: function "strlen" declared implicitly
+"../main.c", line 743: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 744: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 745: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 750: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 752: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 764: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 770: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 776: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 782: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 801: warning #225-D: function "strcmp" declared implicitly
+"../main.c", line 848: warning #225-D: function "strncmp" declared implicitly
+"../main.c", line 848: warning #225-D: function "strlen" declared implicitly
+"../main.c", line 1022: warning #225-D: function "memset" declared implicitly
+"../main.c", line 791: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_getInterruptStatus. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 793: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_clearInterrupt. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 798: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_receiveData. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 800: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 801: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 802: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 805: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 806: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 809: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 810: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 813: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 814: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 817: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 818: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 821: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 822: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 825: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 826: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 829: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 830: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 833: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 834: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 840: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 841: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 848: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 848: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 849: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 849: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 850: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 850: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 851: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 851: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 852: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 852: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 853: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 854: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 855: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 856: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 857: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 858: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 859: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 860: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 861: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 862: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 863: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 865: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 865: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 866: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 866: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 867: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 868: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 870: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 870: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 871: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 871: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 872: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 873: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 875: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 875: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 876: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 876: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 877: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 878: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 880: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 880: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 881: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 881: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 882: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 883: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 885: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 885: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 886: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 886: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 887: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 888: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 891: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 891: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 892: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 892: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 893: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 894: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 897: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 897: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 898: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 898: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 899: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 900: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 903: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 903: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 904: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 904: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 905: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 906: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 909: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 909: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 910: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 910: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 911: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 911: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 912: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 912: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 913: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 913: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 914: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 915: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 916: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 917: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 918: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 919: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 920: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 921: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 922: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 923: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 924: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 927: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 940: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 941: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 942: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 944: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 945: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 946: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 948: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 949: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 950: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 952: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 953: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 954: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 956: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 958: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 987: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function Timer_A_stop. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 988: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function clearLCD. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 990: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 992: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 996: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 998: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1001: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1003: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1007: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1008: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1010: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1011: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1014: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1016: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1017: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 1018: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_transmitData. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1019: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 1020: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_transmitData. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1022: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function memset. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1025: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_transmitData. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1026: remark #2553-D: (ULP 14.1) Array index (involving "commandPosition") of type "int". Recommend using "unsigned int"
+"../main.c", line 798: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_receiveData. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 800: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 801: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 802: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 805: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 806: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 809: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 810: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 813: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 814: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 817: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 818: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 821: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 822: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 825: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 826: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 829: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 830: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 833: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 834: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 840: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 841: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 848: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 848: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 849: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 849: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 850: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 850: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 851: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 851: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 852: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 852: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 853: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 854: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 855: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 856: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 857: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 858: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 859: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 860: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 861: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 862: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 863: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 865: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 865: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 866: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 866: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 867: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 868: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 870: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 870: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 871: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 871: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 872: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 873: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 875: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 875: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 876: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 876: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 877: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 878: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 880: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 880: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 881: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 881: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 882: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 883: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 885: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 885: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 886: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 886: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 887: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 888: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 891: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 891: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 892: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 892: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 893: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 894: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 897: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 897: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 898: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 898: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 899: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 900: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 903: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 903: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 904: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 904: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 905: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 906: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 909: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strncmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 909: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 910: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 910: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 911: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 911: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 912: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 912: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 913: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function atoi. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 913: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strlen. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 914: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 915: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 916: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 917: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 918: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 919: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 920: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 921: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 922: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 923: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 924: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitNumber. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 927: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 940: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 941: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 942: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 944: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 945: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 946: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 948: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 949: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 950: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 952: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 953: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 954: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 956: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 958: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 987: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function Timer_A_stop. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 988: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function clearLCD. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 990: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 992: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 996: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 998: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1001: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1003: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1007: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1008: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1010: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function strcmp. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1011: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1014: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function transmitString. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1016: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function printNewLine. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1017: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 1018: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_transmitData. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1019: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 1020: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_transmitData. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1022: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function memset. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1025: remark #1538-D: (ULP 10.1) ISR EUSCIA0_ISR calls function EUSCI_A_UART_transmitData. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 1026: remark #2553-D: (ULP 14.1) Array index (involving "commandPosition") of type "int". Recommend using "unsigned int"
+Finished building: "../main.c"
+ 
+Building target: "ECE_298.out"
+Invoking: MSP430 Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/bin/cl430" -vmspx -O2 --use_hw_mpy=none --advice:power=all --advice:hw_config=all --define=__MSP430FR4133__ --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ECE_298.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccsv8/ccs_base/msp430/include" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ECE_298_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ECE_298.out" "./hal_LCD.obj" "./main.obj" "./driverlib/adc.obj" "./driverlib/crc.obj" "./driverlib/cs.obj" "./driverlib/ecomp.obj" "./driverlib/eusci_a_spi.obj" "./driverlib/eusci_a_uart.obj" "./driverlib/eusci_b_i2c.obj" "./driverlib/eusci_b_spi.obj" "./driverlib/framctl.obj" "./driverlib/gpio.obj" "./driverlib/icc.obj" "./driverlib/lcd_e.obj" "./driverlib/mpy32.obj" "./driverlib/pmm.obj" "./driverlib/rtc.obj" "./driverlib/sac.obj" "./driverlib/sfr.obj" "./driverlib/sysctl.obj" "./driverlib/tia.obj" "./driverlib/timer_a.obj" "./driverlib/timer_b.obj" "./driverlib/tlv.obj" "./driverlib/wdt_a.obj" "../lnk_msp430fr4133.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "ECE_298.out"
+ 
+
+**** Build Finished ****
