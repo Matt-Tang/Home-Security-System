@@ -12,3 +12,4 @@ Materials:
 8) Audio Piezo Buzzer
 9) Pushbuttons
 
+❮img src="FULL_PIC.png" ❯
